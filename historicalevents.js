@@ -2,7 +2,7 @@ const historicalEvents = {
     "Christopher Columbus reaches the Americas": {
         year: 1492
     },
-    "First moon landing": {
+    "First US moon landing ": {
         year: 1969,
     },
     "United States Declaration of Independence": {
@@ -34,9 +34,6 @@ const historicalEvents = {
     },
     "Christopher Columbus reaches the Americas": {
         year: 1492
-    },
-    "Martin Luther's 95 Theses": {
-        year: 1517
     },
     "Founding of the Mughal Empire": {
         year: 1526
@@ -250,6 +247,138 @@ const historicalEvents = {
     },
     "Paris Agreement on climate change signed": {
         year: 2016
+    },
+    "Dmitri Mendeleev publishes first periodic table of elements": {
+        year: 1869
+    },
+    "Council of Chalcedon": {
+        year: 451
+    },
+    "Justinian I becomes Byzantine Emperor": {
+        year: 527
+    },
+    "Battle of Tours": {
+        year: 732
+    },
+    "Schism between Eastern Orthodox and Roman Catholic Churches": {
+        year: 1054
+    },
+    "Black Death in Europe": {
+        year: 1347
+    },
+    "Joan of Arc leads French forces": {
+        year: 1429
+    },
+    "Fall of Constantinople": {
+        year: 1453
+    },
+    "Vasco da Gama reaches India": {
+        year: 1498
+    },
+    "Ferdinand Magellan's circumnavigation of the Earth": {
+        year: 1522
+    },
+    "Defeat of the Aztec Empire by Hernán Cortés": {
+        year: 1521
+    },
+    "Council of Trent begins": {
+        year: 1545
+    },
+    "St. Bartholomew's Day Massacre": {
+        year: 1572
+    },
+    "Shakespeare writes 'Hamlet'": {
+        year: 1600
+    },
+    "Mayflower lands at Plymouth Rock": {
+        year: 1620
+    },
+    "Great Fire of London": {
+        year: 1666
+    },
+    "Glorious Revolution in England": {
+        year: 1688
+    },
+    "Treaty of Utrecht ends War of Spanish Succession": {
+        year: 1713
+    },
+    "Seven Years' War begins": {
+        year: 1756
+    },
+    "Boston Tea Party": {
+        year: 1773
+    },
+    "Napoleon crowns himself Emperor": {
+        year: 1804
+    },
+    "War of 1812 between US and Britain": {
+        year: 1812
+    },
+    "Texas Declaration of Independence": {
+        year: 1836
+    },
+    "Irish Potato Famine begins": {
+        year: 1845
+    },
+    "Taiping Rebellion": {
+        year: 1850
+    },
+    "Crimean War begins": {
+        year: 1853
+    },
+    "Unification of Italy": {
+        year: 1861
+    },
+    "Meiji Restoration in Japan": {
+        year: 1868
+    },
+    "Battle of Little Bighorn": {
+        year: 1876
+    },
+    "Berlin Conference divides Africa among European powers": {
+        year: 1884
+    },
+    "Spanish flu pandemic": {
+        year: 1918
+    },
+    "Stock Market Crash on Black Tuesday": {
+        year: 1929
+    },
+    "Mahatma Gandhi's Salt March": {
+        year: 1930
+    },
+    "Pearl Harbor Attack": {
+        year: 1941
+    },
+    "Marshall Plan announced": {
+        year: 1947
+    },
+    "Cuban Missile Crisis": {
+        year: 1962
+    },
+    "Vietnam War ends": {
+        year: 1975
+    },
+    "Iranian Revolution": {
+        year: 1979
+    },
+    "Fall of the Soviet Union": {
+        year: 1991
+    },
+    "Euro currency introduced": {
+        year: 1999
+    },
+    "Barack Obama elected as first African-American US President": {
+        year: 2008
+    },
+    "Brexit Referendum": {
+        year: 2016
+    },
+    "Notre-Dame Cathedral fire in Paris": {
+        year: 2019
+    },
+    "George Floyd protests and Black Lives Matter movement": {
+        year: 2020
     }
 };
 

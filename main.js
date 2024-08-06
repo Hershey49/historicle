@@ -47,4 +47,17 @@ document.getElementById('yearInput').addEventListener('input', function(event) {
     this.value = this.value.replace(/[^0-9]/g, '');
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const popup = document.getElementById('popup');
+    const closePopup = document.getElementById('closePopup');
+
+    // Show the popup when the page loads
+    popup.style.display = 'flex';
+
+    // Close the popup when the close button is clicked
+    closePopup.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+});
+
 displayNewEvent();

@@ -8,14 +8,23 @@
 </head>
 <body>
     <div id="app">
-        <h1>Historical Events Game</h1>
         <p id="eventDisplay"></p>
         <input type="text" id="yearInput" placeholder="Enter the year">
         <button id="submitButton">Submit</button>
         <p id="result"></p>
         <p>Score: <span id="score">0</span></p>
     </div>
-    
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>historicle</h2>
+            <h3>a game for chronologists</h3>
+            <p>Choose your difficulty:</p>
+            <button class="difficulty-button">Easy</button>
+            <button class="difficulty-button">Medium</button>
+            <button class="difficulty-button">Hard</button>
+            <button id="closePopup" class="close-button">temp</button>
+        </div>
+    </div>
     <script type="module" src="main.js"></script>
 </body>
 </html>
