@@ -24,14 +24,16 @@ function checkAnswer() {
     const correctYear = historicalEvents[currentEvent].year;
     
     if (userYear === correctYear) {
+        sucess.play();
         document.getElementById('result').textContent = 'Correct!';
         score++;
         document.getElementById('score').textContent = score;
     } else {
+        wrong.play();
         document.getElementById('result').textContent = `Wrong. The correct year was ${correctYear}.`;
     }
     
-    setTimeout(displayNewEvent, 2000);
+    setTimeout(displayNewEvent, 1000);
 }
 
 document.getElementById('submitButton').addEventListener('click', checkAnswer);
@@ -42,22 +44,29 @@ document.getElementById('yearInput').addEventListener('keypress', function(event
     }
 });
 
-// Ensure only numbers can be entered
 document.getElementById('yearInput').addEventListener('input', function(event) {
     this.value = this.value.replace(/[^0-9]/g, '');
 });
 
 document.addEventListener('DOMContentLoaded', () => {
     const popup = document.getElementById('popup');
-    const closePopup = document.getElementById('closePopup');
+    const closePopup = document.getElementsByClassName('diff');
 
-    // Show the popup when the page loads
     popup.style.display = 'flex';
 
-    // Close the popup when the close button is clicked
-    closePopup.addEventListener('click', () => {
-        popup.style.display = 'none';
+    Array.from(closePopup).forEach(button => {
+        button.addEventListener('click', () => {
+            popup.style.display = 'none';
+        });
     });
+});
+
+document.getElementById('submitButton').addEventListener('click', checkAnswer);
+
+document.getElementById('yearInput').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        checkAnswer();
+    }
 });
 
 displayNewEvent();

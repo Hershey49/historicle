@@ -2,7 +2,7 @@ const historicalEvents = {
     "Christopher Columbus reaches the Americas": {
         year: 1492
     },
-    "First US moon landing ": {
+    "First US moon landing": {
         year: 1969,
     },
     "United States Declaration of Independence": {
@@ -17,38 +17,17 @@ const historicalEvents = {
     "Crucifixion of Jesus Christ": {
         year: 33
     },
-    "Foundation of Islam by Prophet Muhammad": {
-        year: 610
-    },
-    "Sacking of Rome by Visigoths": {
-        year: 410
-    },
-    "Battle of Hastings": {
-        year: 1066
-    },
     "Signing of the Magna Carta": {
         year: 1215
     },
     "Invention of the Printing Press by Johannes Gutenberg": {
         year: 1440
     },
-    "Christopher Columbus reaches the Americas": {
-        year: 1492
-    },
     "Founding of the Mughal Empire": {
         year: 1526
     },
     "Galileo's discovery of the moons of Jupiter": {
         year: 1610
-    },
-    "English Civil War": {
-        year: 1642
-    },
-    "American Declaration of Independence": {
-        year: 1776
-    },
-    "French Revolution": {
-        year: 1789
     },
     "Invention of the steam engine by James Watt": {
         year: 1765
@@ -59,9 +38,6 @@ const historicalEvents = {
     "Abolition of slavery in the United States": {
         year: 1865
     },
-    "Unification of Germany": {
-        year: 1871
-    },
     "Invention of the telephone by Alexander Graham Bell": {
         year: 1876
     },
@@ -70,9 +46,6 @@ const historicalEvents = {
     },
     "Assassination of Archduke Franz Ferdinand": {
         year: 1914
-    },
-    "Russian Revolution": {
-        year: 1917
     },
     "End of World War I": {
         year: 1918
@@ -86,20 +59,8 @@ const historicalEvents = {
     "Founding of the United Nations": {
         year: 1945
     },
-    "Indian Independence": {
-        year: 1947
-    },
-    "Establishment of the People's Republic of China": {
-        year: 1949
-    },
     "First man in space (Yuri Gagarin)": {
         year: 1961
-    },
-    "First moon landing": {
-        year: 1969
-    },
-    "Fall of the Berlin Wall": {
-        year: 1989
     },
     "End of Apartheid in South Africa": {
         year: 1994
@@ -113,89 +74,17 @@ const historicalEvents = {
     "Foundation of Islam by Prophet Muhammad": {
         year: 610
     },
-    "Sacking of Rome by Visigoths": {
-        year: 410
-    },
-    "Battle of Hastings": {
-        year: 1066
-    },
-    "Signing of the Magna Carta": {
-        year: 1215
-    },
-    "Invention of the Printing Press by Johannes Gutenberg": {
-        year: 1440
-    },
-    "Christopher Columbus reaches the Americas": {
-        year: 1492
-    },
-    "Martin Luther's 95 Theses": {
-        year: 1517
-    },
-    "Founding of the Mughal Empire": {
-        year: 1526
-    },
-    "Galileo's discovery of the moons of Jupiter": {
-        year: 1610
-    },
-    "English Civil War begins": {
-        year: 1642
-    },
-    "American Declaration of Independence": {
-        year: 1776
-    },
-    "French Revolution begins": {
-        year: 1789
-    },
-    "Invention of the steam engine by James Watt": {
-        year: 1765
-    },
-    "Battle of Waterloo": {
-        year: 1815
-    },
-    "Abolition of slavery in the United States": {
-        year: 1865
-    },
-    "Unification of Germany under Otto von Bismarck": {
-        year: 1871
-    },
-    "Invention of the telephone by Alexander Graham Bell": {
-        year: 1876
-    },
-    "First powered flight by the Wright brothers": {
-        year: 1903
-    },
-    "Assassination of Archduke Franz Ferdinand": {
-        year: 191
-    },
-    "Council of Nicaea": {
-        year: 325
-    },
     "Construction of the Hagia Sophia in Constantinople": {
         year: 537
-    },
-    "Charlemagne crowned Holy Roman Emperor": {
-        year: 800
-    },
-    "Norman Conquest of England": {
-        year: 1066
     },
     "First Crusade launched": {
         year: 1096
     },
-    "Signing of the Treaty of Tordesillas": {
-        year: 1494
-    },
     "Copernicus' heliocentric theory published": {
         year: 1543
     },
-    "Defeat of the Spanish Armada by England": {
-        year: 1588
-    },
     "Founding of the Jamestown Colony in Virginia": {
         year: 1607
-    },
-    "Signing of the Treaty of Westphalia": {
-        year: 1648
     },
     "Isaac Newton publishes Principia Mathematica": {
         year: 1687
@@ -211,9 +100,6 @@ const historicalEvents = {
     },
     "Edison invents the incandescent light bulb": {
         year: 1879
-    },
-    "Spanish-American War": {
-        year: 1898
     },
     "Discovery of radium by Marie and Pierre Curie": {
         year: 1898
@@ -251,18 +137,6 @@ const historicalEvents = {
     "Dmitri Mendeleev publishes first periodic table of elements": {
         year: 1869
     },
-    "Council of Chalcedon": {
-        year: 451
-    },
-    "Justinian I becomes Byzantine Emperor": {
-        year: 527
-    },
-    "Battle of Tours": {
-        year: 732
-    },
-    "Schism between Eastern Orthodox and Roman Catholic Churches": {
-        year: 1054
-    },
     "Black Death in Europe": {
         year: 1347
     },
@@ -281,12 +155,6 @@ const historicalEvents = {
     "Defeat of the Aztec Empire by Hernán Cortés": {
         year: 1521
     },
-    "Council of Trent begins": {
-        year: 1545
-    },
-    "St. Bartholomew's Day Massacre": {
-        year: 1572
-    },
     "Shakespeare writes 'Hamlet'": {
         year: 1600
     },
@@ -295,15 +163,6 @@ const historicalEvents = {
     },
     "Great Fire of London": {
         year: 1666
-    },
-    "Glorious Revolution in England": {
-        year: 1688
-    },
-    "Treaty of Utrecht ends War of Spanish Succession": {
-        year: 1713
-    },
-    "Seven Years' War begins": {
-        year: 1756
     },
     "Boston Tea Party": {
         year: 1773
@@ -314,26 +173,8 @@ const historicalEvents = {
     "War of 1812 between US and Britain": {
         year: 1812
     },
-    "Texas Declaration of Independence": {
-        year: 1836
-    },
     "Irish Potato Famine begins": {
         year: 1845
-    },
-    "Taiping Rebellion": {
-        year: 1850
-    },
-    "Crimean War begins": {
-        year: 1853
-    },
-    "Unification of Italy": {
-        year: 1861
-    },
-    "Meiji Restoration in Japan": {
-        year: 1868
-    },
-    "Battle of Little Bighorn": {
-        year: 1876
     },
     "Berlin Conference divides Africa among European powers": {
         year: 1884
@@ -359,9 +200,6 @@ const historicalEvents = {
     "Vietnam War ends": {
         year: 1975
     },
-    "Iranian Revolution": {
-        year: 1979
-    },
     "Fall of the Soviet Union": {
         year: 1991
     },
@@ -379,7 +217,104 @@ const historicalEvents = {
     },
     "George Floyd protests and Black Lives Matter movement": {
         year: 2020
-    }
+    },
+    "Large Hadron Collider at CERN is activated": {
+        year: 2008
+    },
+    "First image of a black hole captured": {
+        year: 2019
+    },
+    "James Webb Space Telescope launched": {
+        year: 2021
+    },
+    "ChatGPT publicly released by OpenAI": {
+        year: 2022
+    },
+    "Publication of Isaac Newton's 'Principia Mathematica'": {
+        year: 1687
+    },
+    "Albert Einstein's theory of relativity published": {
+        year: 1905
+    },
+    "Discovery of penicillin by Alexander Fleming": {
+        year: 1928
+    },
+    "Launch of the Hubble Space Telescope": {
+        year: 1990
+    },
+    "First universities established in Europe (University of Bologna)": {
+        year: 1088
+    },
+    "First successful cloning of a mammal (Dolly the sheep)": {
+        year: 1996
+    },
+    "Birth of Jesus Christ": {
+        year: 0
+    },
+    "Founding of the Roman Empire by Augustus": {
+        year: 27
+    },
+    "Eruption of Mount Vesuvius and destruction of Pompeii": {
+        year: 79
+    },
+    "Construction of the Colosseum in Rome completed": {
+        year: 80
+    },
+    "Invention of paper in China": {
+        year: 105
+    },
+    "Construction of Hadrian's Wall begins": {
+        year: 122
+    },
+    "Gunpowder invented in China": {
+        year: 850
+    },
+    "Leif Erikson reaches North America": {
+        year: 1000
+    },
+    "Genghis Khan unites Mongol tribes": {
+        year: 1206
+    },
+    "Marco Polo begins his journey to China": {
+        year: 1271
+    },
+    "Leonardo da Vinci paints the Mona Lisa": {
+        year: 1503
+    },
+    "James Cook reaches Australia": {
+        year: 1770
+    },
+    "Charles Darwin publishes 'On the Origin of Species'": {
+        year: 1859
+    },
+    "Completion of the First Transcontinental Railroad in the United States": {
+        year: 1869
+    },
+    "Henry Ford introduces the Model T automobile": {
+        year: 1908
+    },
+    "Sinking of the Titanic": {
+        year: 1912
+    },
+    "Discovery of Tutankhamun's tomb": {
+        year: 1922
+    },
+    "First electronic computer (ENIAC) built": {
+        year: 1945
+    },
+    "World Wide Web invented by Tim Berners-Lee": {
+        year: 1989
+    },
+    "Nelson Mandela elected President of South Africa": {
+        year: 1994
+    },
+    "Juan Ponce de Leon lands in Florida": {
+        year: 1512
+    },
+    "US purchases French land in Louisiana purchase": {
+        year: 1803
+    },
 };
+
 
 export default historicalEvents;
